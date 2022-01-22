@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Routes, Route, Outlet, Link } from "react-router-dom";
+import './index.css'
+import HomePage from './pages/HomePage';
+import Menu from './component/Menu';
+import Location from './pages/Location'
+import Reservation from './pages/Reservation'
+import About from './pages/About';
+import Contact from './pages/Contact';
+import SignUp from './pages/SignUp';
+import MenuPage from './pages/MenuPage';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <div className='bg-amber-50'>
+ <Routes>
+        <Route path="/" element ={<HomePage />} />
+        <Route path="About" element={<About />} />
+        <Route path="Menu" element={<MenuPage />} />
+        <Route path="location" element={<Location />} />
+        <Route path="SignUp" element={<SignUp />} />
+        <Route path="Contact" element={<Contact />} />
+        <Route path="Reservation" element={<Reservation />} />
+    </Routes>
+ </div>
+  )
 }
 
 export default App;
