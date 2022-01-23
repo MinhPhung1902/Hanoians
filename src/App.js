@@ -9,6 +9,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import SignUp from './pages/SignUp';
 import MenuPage from './pages/MenuPage';
+import Success from './pages/Success'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="SignUp" element={<SignUp />} />
         <Route path="Contact" element={<Contact />} />
         <Route path="Reservation" element={<Reservation />} />
+        <Route path="success" element={<Success />} />
     </Routes>
  </div>
   )

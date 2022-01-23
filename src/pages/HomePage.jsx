@@ -56,7 +56,7 @@ const HomePage = () => {
     <div className='w-full'>
         <div className='relative'>
         <img className='w-screen' src="https://images.unsplash.com/photo-1622087250532-ef720737446b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHZpZXRuYW1lc2UlMjBmb29kfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="" />
-        <h1 className='absolute border-yellow-300 border-4 bg-black/30 text-[48px] md:text-[88px]  text-white text-center top-1/3  left-1/2 -translate-x-1/2 py-3 w-1/3 font-script'>About Us</h1>
+        <h1 className='absolute border-yellow-300 border-4 bg-black/30 text-[48px] md:text-[88px]  text-white text-center top-[25%] sm:top-[33%] left-1/2 -translate-x-1/2  py-3 w-1/3 font-script'>About Us</h1>
         </div>
         <div className='2xl:mx-40 xl:mx-40 md:mx-20 sm:mx-10 p-20'>
         <h1 className='text-5xl text-center leading-tight tracking-tight font-script'>

@@ -8,7 +8,7 @@ const Reservation = () => {
       <div className='pt-[120px] w-full'>
         <div className='relative'>
         <img className='w-screen' src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dmlldG5hbWVzZSUyMGZvb2R8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="" />
-        <h1 className='absolute border-yellow-300 border-4 bg-black/30 text-[36px] sm:text-[50px] md:text-[58px] xl:text-[88px] top-1/2 left-1/2 -translate-x-1/2 text-white text-center py-3 w-1/3 font-script'>Reservation</h1>
+        <h1 className='absolute border-yellow-300 border-4 bg-black/30 text-[30px] sm:text-[50px] md:text-[58px] xl:text-[88px] top-1/2 left-1/2 -translate-x-1/2 text-white text-center py-3 w-1/3 font-script'>Reservation</h1>
         </div>
         <div className='mx-5 py-10'>
         <h1 className='text-5xl text-center leading-tight tracking-tight font-script'>
